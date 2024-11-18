@@ -1,0 +1,25 @@
+Funções:
+contar_palavras: Conta o número de palavras, utilizando split().
+contar_frases: Conta o número de frases, separando o texto por pontuação (como ponto final, ponto de interrogação, etc.) usando expressões regulares.
+frequencia_palavras: Cria um dicionário com a contagem de cada palavra, usando o Counter do módulo collections.
+palavra_mais_frequente: Encontra a palavra mais frequente no dicionário gerado.
+contar_caracteres: Conta os tipos de caracteres no texto (letras, números, pontuação e outros), utilizando condições.
+
+
+Leitura de Texto:
+ler_texto: Permite que o usuário digite um texto diretamente ou forneça o nome de um arquivo de texto.
+
+
+Menu Simples:
+O menu permite ao usuário escolher se deseja digitar o texto diretamente ou fornecer o nome de um arquivo para análise.
+
+
+Exibição dos Resultados:
+Após a análise, o programa exibe o número de palavras, frases, frequências de palavras, a palavra mais frequente, e a contagem dos tipos de caracteres.
+
+
+Como funciona:
+Ao executar o programa, o usuário pode escolher entre inserir um texto diretamente ou apontar para um arquivo de texto. O programa então analisa o conteúdo e mostra as estatísticas mencionadas.
+
+Obs.: 
+Para realizar a leitura de um arquivo de texto local, é necessário o caminho completo para que o código consiga achá-lo, por exemplo: C:\Users\murilo\OneDrive\Desktop\arquivo.txt
